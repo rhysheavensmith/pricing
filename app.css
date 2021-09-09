@@ -1,0 +1,100 @@
+html {
+  margin: 0;
+  background: url("./images/pattern-background-desktop.svg") no-repeat center
+    center fixed;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+h1 {
+  margin-top: 45px;
+  margin-bottom: 17px;
+  font-size: 28px;
+  font-weight: 900;
+  color: #1f2e55;
+}
+
+.card {
+  width: 450px;
+  height: 697px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 40px 40px -20px #0d30bd3b;
+}
+
+.hero {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.summary {
+  width: 354px;
+  text-align: center;
+  margin: auto;
+  color: #717fa6;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.pricing {
+  background-color: #f7f9ff;
+  width: 354px;
+  height: 98px;
+  margin: 0 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 11px;
+  padding: 0 24px;
+  margin: auto;
+}
+
+.pricing p {
+  color: #717fa6;
+  margin-left: -120px;
+}
+
+.plan {
+  font-weight: 900;
+  color: #1f2e55;
+}
+
+button {
+  margin: 32px auto;
+  width: 402px;
+  border: none;
+  padding: 15px 102px;
+  border-radius: 11px;
+  background-color: #382ae1;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: 0 40px 40px -20px #0d30bd3b;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #766cf1;
+}
+
+.cancel {
+  color: #717fa6;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.cancel:hover {
+  color: #1f2e55;
+}
