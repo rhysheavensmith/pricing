@@ -60,6 +60,15 @@ h1 {
   margin: auto;
 }
 
+.change {
+  color: #382ae1;
+  text-decoration: none;
+}
+
+.change:hover {
+  color: #766cf1;
+}
+
 .pricing p {
   color: #717fa6;
   margin-left: -120px;
